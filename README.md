@@ -1,0 +1,1 @@
+Main program is unsteady_flow_finite_volume_3.py Results show the pressure and temperature in a 1m long pipe 5e-4s after an imaginary membrane is burst in the centre of the pipe with initial conditions 5 bar 1200k on the left of the membrane and 1 bar 300k on the right. 
