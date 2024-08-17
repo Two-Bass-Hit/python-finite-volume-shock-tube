@@ -1,7 +1,7 @@
 import numpy as np
 import scipy as sp
 
-def flux_limiter_tvd(i, W, courant_number, num_nodes, geom_array): #this version divides the terms in the state aray by the affect of area so area does not overwhelm the other properties
+def flux_limiter_tvd(i, W, courant_number, num_nodes, geom_array): 
 
   delta_W_i_plus_1_over_2 = np.empty(shape = (3)) #creates 3x1 vector
   delta_W_i_minus_1_over_2 = np.empty(shape = (3))
